@@ -72,7 +72,8 @@
     height: 100%;
 }
 
-.customer-benefits h2 {
+.customer-benefits span {
+    font-weight: bold;
     color: hsl(0, 0%, 100%);
 }
 
@@ -93,6 +94,8 @@
 .benefits-list li:nth-of-type(2) {
     margin-bottom: 20px;
 }
+
+
 /* end of customer benefits */
 /* start of attribution */
 .attribution {
@@ -113,8 +116,6 @@
     .background {
         justify-content: center;
     }
-}
-@media (min-width: 880px) {
     .card {
         display: flex;
         flex-direction: row-reverse;
@@ -122,9 +123,6 @@
         height: 54vh;
         top: 23%;
     }
-}
-
-@media (min-width: 880px) {
     .image-container {
         flex: 1 1 auto;
         height: 100%;
@@ -133,39 +131,24 @@
         background-size: 100% 100%;
         /* background-position-x: 10px; */
     }
-}
-
-@media (min-width: 880px) {
     .text-container {
         width: 50%;
         justify-content: space-around;
     }
-}
-
-@media (min-width: 880px) {
     .presentation {
         margin-top:165px;
         margin-left: 4em;
         width: 80%;
     }
-}
-
-@media (min-width: 880px) {
     .presentation h1 {
         width: 100%;
         text-align: left;
         margin-bottom: 1em;
     }
-}
-
-@media (min-width: 880px) {
     .presentation p {
         width: 100%;
         text-align: left;
     }
-}
-
-@media (min-width: 880px) {
     .customer-benefits {
         display: flex;
         justify-content: flex-start;
@@ -173,22 +156,13 @@
         width: 80%;
         margin-left: 4em;
     }
-}
-
-@media (min-width: 880px) {
     .customer-benefits  ul {
         display: flex;
         justify-content: space-around;
     }
-}
-
-@media (min-width: 880px) {
     .benefits-list {
         width: 100%;
     }
-}
-
-@media (min-width: 880px) {
     .benefits-list li {
         margin-right: 10px;
     }
