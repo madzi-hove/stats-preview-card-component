@@ -97,11 +97,16 @@
 
 /* end of customer benefits */
 /* start of attribution */
-.attribution {
+footer { 
     position: absolute;
-    font-size: 11px; text-align: center;
-    color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: 0 auto ;
     bottom: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution a {
