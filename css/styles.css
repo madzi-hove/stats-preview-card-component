@@ -7,18 +7,18 @@
 /* start of card background */
 .background {
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: hsl(233, 47%, 7%);
+
 }
 /* start of card */
 .card {
     display: flex;
-    position:absolute;
     flex-direction: column;
-    width: 285px;
-    height: 80vh;
-    top: 10%;
+    max-width: 285px;
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
     overflow: hidden;
@@ -27,7 +27,7 @@
 
 .image-container {
     height: 208px;
-    width: 285px;
+    width: 100%;
     background: linear-gradient(hsl(277, 100%, 31%, 0.55), hsl(277, 100%, 31%, 0.55)), url(../images/image-header-mobile.jpg) no-repeat;
     background-size: 100%;
 }
@@ -95,7 +95,6 @@
     margin-bottom: 20px;
 }
 
-
 /* end of customer benefits */
 /* start of attribution */
 .attribution {
@@ -105,7 +104,6 @@
     bottom: 0;
 }
 
-
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
@@ -113,15 +111,10 @@
 
 /* Media queries */
 @media (min-width:880px)  {
-    .background {
-        justify-content: center;
-    }
     .card {
         display: flex;
         flex-direction: row-reverse;
-        width: 75vw;
-        height: 54vh;
-        top: 23%;
+        max-width: 75vw;
     }
     .image-container {
         flex: 1 1 auto;
@@ -129,7 +122,6 @@
         width: 50%;
         background: linear-gradient(hsl(277, 100%, 31%, 0.55), hsl(277, 100%, 31%, 0.55)), url(../images/image-header-desktop.jpg) no-repeat;
         background-size: 100% 100%;
-        /* background-position-x: 10px; */
     }
     .text-container {
         width: 50%;
