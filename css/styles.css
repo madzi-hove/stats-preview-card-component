@@ -28,6 +28,7 @@
 .image-container {
     height: 208px;
     width: 100%;
+    /* background-blend-mode or mix-blend-mode can be used here as well */
     background: linear-gradient(hsl(277, 100%, 31%, 0.55), hsl(277, 100%, 31%, 0.55)), url(../images/image-header-mobile.jpg) no-repeat;
     background-size: 100%;
 }
